@@ -92,8 +92,8 @@ function fetchBookmarks() {
         // Create bookmarks array in localStorage
         bookmarks = [
             {
-                name: 'MindBorn Design',
-                url: 'http://mindborn.pl'
+                name: 'Zero To Mastery',
+                url: 'https://zerotomastery.io/'
             }
         ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));

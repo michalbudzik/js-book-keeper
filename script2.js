@@ -88,10 +88,10 @@ function fetchBookmarks() {
         bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
     } else {
         // Create bookmarks array in localStorage
-        const id = 'http://mindborn.pl';
+        const id = 'https://zerotomastery.io/';
         bookmarks[id] = {
-            name: 'MindBorn Design',
-            url: 'http://mindborn.pl'
+            name: 'Zero To Mastery',
+            url: 'https://zerotomastery.io/'
         }
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }
