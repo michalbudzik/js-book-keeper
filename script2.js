@@ -83,15 +83,15 @@ function deleteBookmark(id) {
 
 // Fetch Bookmarks
 function fetchBookmarks() {
-    // Get Bookmarks from localStorage if available
+    // Get Bookmarks from localStorage if available 
     if (localStorage.getItem('bookmarks')) {
         bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
     } else {
         // Create bookmarks array in localStorage
-        const id = 'https://zerotomastery.io/';
+        const id = 'https://zerotomastery.io';
         bookmarks[id] = {
             name: 'Zero To Mastery',
-            url: 'https://zerotomastery.io/'
+            url: 'https://zerotomastery.io'
         }
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
     }

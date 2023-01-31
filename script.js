@@ -93,7 +93,7 @@ function fetchBookmarks() {
         bookmarks = [
             {
                 name: 'Zero To Mastery',
-                url: 'https://zerotomastery.io/'
+                url: 'https://zerotomastery.io'
             }
         ];
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
